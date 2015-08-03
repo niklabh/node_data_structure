@@ -4,5 +4,21 @@
 
 Data structure Algorithms and Programming problems in node.js in no particular order.
 
+##Data Structure 
+- Tree
+- Queue
+
+##Algorithms
+- DFS
+  - Inorder Traversal
+  - Preorder Traversal
+  - Postorder Traversal
+- BFS
+  - Level Order Traversal
+
+##Problems
+- Binary Tree is a Binary Search Tree or not
 
 
+##Contributions
+To Contribute add your name twitter and email to contributors.txt 
