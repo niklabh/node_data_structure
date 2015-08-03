@@ -1,6 +1,11 @@
 'use strict';
 
-var Node = require('./BinaryTree');
+var Node = require('./ds/BinaryTree');
+
+/**
+ * Sample Binary Tree
+ * 
+ */
 
 function sampleTree() {
   //              1
@@ -20,4 +25,4 @@ function sampleTree() {
   return tree;
 }
 
-module.exports = sampleTree;
+module.exports = sampleTree();
