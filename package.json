@@ -1,0 +1,21 @@
+{
+  "name": "node_data_structure",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms in Node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "data",
+    "structure",
+    "node.js",
+    "javascript",
+    "algorithms"
+  ],
+  "author": "Nikhil Ranjan (@niklabh)",
+  "license": "ISC",
+  "devDependencies": {
+    "debug": "^2.2.0"
+  }
+}
