@@ -18,8 +18,8 @@ function Fifo() {
   };
 
   this.dequeue = function () {
-    return queue.shift();
     debug("dequeue", queue);
+    return queue.shift();
   };
 }
 

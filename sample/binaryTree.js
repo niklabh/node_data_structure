@@ -1,6 +1,6 @@
 'use strict';
 
-var Node = require('./ds/BinaryTree');
+var Node = require('../ds/BinaryTree');
 
 /**
  * Sample Binary Tree

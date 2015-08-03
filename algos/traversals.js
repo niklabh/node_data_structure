@@ -2,6 +2,8 @@
 
 var Fifo = require('../ds/FifoQueue');
 
+/////////// Depth First ////////////////
+
 /**
  * Pre Order traversal
  * root -> children
@@ -56,6 +58,9 @@ function postOrder(root, operation) {
   }(root));
 }
 
+
+/////////// Breadth First ////////////////
+
 /**
  * Level Order Traversal of a Binary Tree
  * where nodes are traversed in DFS manner
@@ -88,7 +93,7 @@ module.exports = {
 
 if (require.main === module) {
   (function() {
-    var sample = require('../sampleBinaryTree');
+    var sample = require('../sample/binaryTree');
     Object.keys(module.exports).forEach(function (traversal){
       console.log(traversal);
       module.exports[traversal](sample, console.log);
