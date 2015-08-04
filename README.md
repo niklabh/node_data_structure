@@ -18,6 +18,7 @@ Data structure Algorithms and Programming problems in node.js in no particular o
 
 ##Problems
 - Binary Tree is a Binary Search Tree or not
+- Find Minimum cost of path from 0,0 to m,n in a cost matrix
 
 
 ##Contributions
